@@ -3,6 +3,8 @@ Screen recorder made in python usnig open computer vision
 
 ## Usage
 
+This project has been abandoned and will not be revisited because I have made a much better and user friendly alternative you can check [here](https://github.com/Josakko/JK_ScreenRecorder-Webapp).
+
 <p align="center">
   <img alt="issue" src="" width="650px">
 </p>
