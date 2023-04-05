@@ -26,7 +26,7 @@ class JK_ScreenRecorder(tk.Tk):
         self.title("JK ScreenRecorder")
         self.config(bg="#dbdbdb")
         self.protocol("WM_DELETE_WINDOW", self.quit)
-        self.filename = None
+        
         
         self.font = ("Arial", 14) #, font=self.font
         self.blank = tk.PhotoImage(file="blank.png")
@@ -47,6 +47,7 @@ class JK_ScreenRecorder(tk.Tk):
         self.quit_button.pack(pady=10, side=tk.RIGHT, padx=10)
         
         
+        self.filename = None
         self.recording = False
         self.recording_thread = None
         
@@ -121,4 +122,3 @@ class JK_ScreenRecorder(tk.Tk):
 if __name__ == "__main__":
     app = JK_ScreenRecorder()
     app.mainloop()
-
